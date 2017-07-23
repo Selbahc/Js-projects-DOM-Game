@@ -10,8 +10,66 @@
 </head>
 
 <body>
+  <section class="sec-container flex-row flex-justify-center flex-align-center">
+    <div class="sec-content">
 
+      <!-- New game 'title' -->
+      <div id="new-game" class="flex-row flex-justify-center">
+        <div id="plus-game"></div>
+        <p>New game</p>
+      </div>
+
+      <div id="game-container" class="flex-row flex-justify-sp-between">
+
+        <!-- Player 1 column -->
+        <div class="player player-1 flex1 flex-col flex-align-center">
+          <div class="player-status flex-row flex-justify-sp-between flex-align-center">
+            <p>Player 1</p>
+            <div id="playing1" class="is-playing"></div>
+          </div>
+          <div class="global">Let's play!</div>
+          <div class="current flex-col flex-align-center">
+            <p>Current</p>
+            <div class="round">Let's play!</div>
+          </div>
+        </div>
+
+        <!-- Dice column -->
+        <div id="dice" class="flex1 flex-col flex-align-center">
+          <div id="dice-img-container">
+            <img src="images/dice-1.png" alt="Dice" id="dice-img">
+          </div>
+          <div id="roll-dice">
+            <div id="is-rolling"></div>
+            <p>Roll dice</p>
+          </div>
+          <div id="hold-round">
+            <div id="holding"></div>
+            <p>Hold</p>
+          </div>
+        </div>
+
+        <!-- Player 2 column -->
+        <div class="player player-2 flex1 flex-col flex-align-center">
+          <div class="player-status flex-row flex-justify-sp-between flex-align-center">
+            <p>Player 2</p>
+            <div id="playing2" class="is-playing"></div>
+          </div>
+          <div class="global">Let's play!</div>
+          <div class="current flex-col flex-align-center">
+            <p>Current</p>
+            <div class="round">Let's play!</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <script type="text/javascript" src="js/dom.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
   <script type="text/javascript" src="js/dice.js"></script>
+  <script type="text/javascript" src="js/players.js"></script>
+  <script type="text/javascript" src="js/game.js"></script>
 </body>
 
 </html>

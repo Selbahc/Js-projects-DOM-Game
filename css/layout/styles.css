@@ -1,0 +1,45 @@
+/***********************
+*POSITIONNING BOX GAME
+************************/
+
+.sec-container {
+  height: 100vh;
+  width: 100vw;
+  background-image: radial-gradient(#FFF, #AB8049);
+}
+
+.sec-content {
+  width: 95vw;
+  height: 95%;
+  -webkit-box-shadow: 0 0 20px #9C855D;
+  box-shadow: 0 0 20px #9C855D;
+  text-transform: uppercase;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, #EEE), color-stop(50%, #FFF));
+  background-image: linear-gradient(90deg, #EEE 50%, #FFF 50%);
+}
+
+
+/**************
+*NEW GAME LINE
+***************/
+
+#new-game {
+  line-height: 4em;
+}
+
+
+/*******
+*PLAYER
+*******/
+
+.is-playing {
+  height: 1em;
+  width: 1em;
+  background-color: transparent;
+  border-radius: 50%;
+  margin: 0 .5em;
+}
+
+.global {
+  font-size: 3em;
+}

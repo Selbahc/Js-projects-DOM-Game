@@ -1,2 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+@import "layout/normalize.css";
+@import "layout/flex.css";
 @import 'layout/styles.css';
