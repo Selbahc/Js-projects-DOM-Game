@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/index.css">
+  <title>DICE GAME</title>
+</head>
+
+<body>
+  <section class="sec-container flex-row flex-justify-end flex-align-center">
+    <div class="sec-content">
+
+      <!-- New game starter -->
+      <div id="new-game" class="flex-row flex-justify-center">
+        <p class="flex-row flex-align-center"><span class="ion-ios-plus-outline"> </span>New game</p>
+      </div>
+
+      <div id="game-container" class="flex-row flex-justify-sp-between">
+
+        <!-- Player 1 column -->
+        <div class="player player-1 flex1 flex-col flex-align-center">
+          <div class="player-status flex-row flex-justify-sp-between flex-align-center">
+            <p>Player 1</p>
+            <div id="playing1" class="is-playing"></div>
+          </div>
+          <div class="global">
+            <p>X</p>
+          </div>
+          <div class="current flex-col flex-align-center">
+            <p>Current</p>
+            <div class="round">
+              <p>X</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dice column -->
+        <div id="dice" class="flex1 flex-col flex-justify-end flex-align-center">
+          <div id="dice-img-container">
+            <img src="images/dice-1.png" alt="Dice" id="dice-img">
+          </div>
+          <div id="roll-dice">
+            <p class="flex-row flex-align-center"><span class="ion-ios-loop"></span>Roll dice</p>
+          </div>
+          <div id="hold-round">
+            <p class="flex-row flex-align-center"><span class="ion-ios-download-outline"> </span>Hold</p>
+          </div>
+        </div>
+
+        <!-- Player 2 column -->
+        <div class="player player-2 flex1 flex-col flex-align-center">
+          <div class="player-status flex-row flex-justify-sp-between flex-align-center">
+            <p>Player 2</p>
+            <div id="playing2" class="is-playing"></div>
+          </div>
+          <div class="global">
+            <p>X</p>
+          </div>
+          <div class="current flex-col flex-align-center">
+            <p>Current</p>
+            <div class="round">
+              <p>X</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <script type="text/javascript" src="js/dom.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript" src="js/players.js"></script>
+</body>
+
+</html>
+>>>>>>> master
